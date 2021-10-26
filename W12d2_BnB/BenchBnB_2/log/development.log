@@ -1,0 +1,44 @@
+Started GET "/" for ::1 at 2021-10-26 14:28:29 -0400
+
+ActiveRecord::NoDatabaseError - FATAL:  database "BenchBnB_2_development" does not exist:
+
+Started POST "/__better_errors/19f4b61f95144815/variables" for ::1 at 2021-10-26 14:28:31 -0400
+  [1m[35m (1349.2ms)[0m  [1m[35mCREATE DATABASE "BenchBnB_2_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (955.7ms)[0m  [1m[35mCREATE DATABASE "BenchBnB_2_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2021-10-26 14:31:07 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (27.2ms)
+Completed 200 OK in 69ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 14:32:15 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 29ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 14:32:26 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 21ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 14:32:32 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hienthu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (6.0ms)
+Completed 200 OK in 33ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 14:34:49 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (0.4ms)
+Completed 200 OK in 5033ms (Views: 5025.5ms | ActiveRecord: 0.0ms)
+
+
